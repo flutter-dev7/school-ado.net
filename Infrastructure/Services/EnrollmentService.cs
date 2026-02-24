@@ -37,7 +37,7 @@ public class EnrollmentService : IEnrollmentService
                     Id = row.Field<int>("Id"),
                     StudentId = row.Field<int>("StudentId"),
                     CourseId = row.Field<int>("CourseId"),
-                    EnrolledAt = row.Field<DateTime>("EnrolledAt"),
+                    EnrollDate = row.Field<DateOnly>("EnrollDate"),
                     isPaid = row.Field<bool>("IsPaid")
                 };
                 enrollmentList.Add(enrollment);
@@ -53,13 +53,13 @@ public class EnrollmentService : IEnrollmentService
             connection.Open();
 
             string sql = @"
-            INSERT INTO Enrollments (StudentId, CourseId, EnrolledAt, IsPaid)
-            VALUES (@studentId, @courseId, @enrolledAt, @isPaid)";
+            INSERT INTO Enrollments (StudentId, CourseId, EnrollDate, IsPaid)
+            VALUES (@studentId, @courseId, @enrollDate, @isPaid)";
 
             NpgsqlCommand command = new NpgsqlCommand(sql, connection);
             command.Parameters.AddWithValue("studentId", studentId);
             command.Parameters.AddWithValue("courseId", courseId);
-            command.Parameters.AddWithValue("enrolledAt", DateTime.Now);
+            command.Parameters.AddWithValue("enrollDate", DateTime.Now);
             command.Parameters.AddWithValue("isPaid", false);
 
             command.ExecuteNonQuery();

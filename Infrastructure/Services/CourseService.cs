@@ -126,7 +126,7 @@ public class CourseService : ICourseService
 
             string sql = @"
             INSERT INTO Courses (Title, Price, DurationWeeks)
-            VALUES Courses (@title, @price, @durationWeeks)";
+            VALUES (@title, @price, @durationWeeks)";
 
             NpgsqlCommand command = new NpgsqlCommand(sql, connection);
             command.Parameters.AddWithValue("title", course.Title);

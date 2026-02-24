@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WHw5i2u8sDo=",
+  "dgSpecHash": "21tWRSLh0qc=",
   "success": true,
   "projectFilePath": "C:\\Users\\Ismoil\\OneDrive\\Desktop\\Programming\\ADO.NET\\week1\\lesson4\\home-work\\MainApp\\MainApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ismoil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\Ismoil\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\Ismoil\\.nuget\\packages\\npgsql\\10.0.1\\npgsql.10.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

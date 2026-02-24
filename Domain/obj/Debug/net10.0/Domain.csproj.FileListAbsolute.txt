@@ -1,0 +1,12 @@
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\bin\Debug\net10.0\Domain.deps.json
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\bin\Debug\net10.0\Domain.dll
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\bin\Debug\net10.0\Domain.pdb
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\obj\Debug\net10.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\obj\Debug\net10.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\obj\Debug\net10.0\Domain.AssemblyInfo.cs
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\obj\Debug\net10.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\obj\Debug\net10.0\Domain.sourcelink.json
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\obj\Debug\net10.0\Domain.dll
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\obj\Debug\net10.0\refint\Domain.dll
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\obj\Debug\net10.0\Domain.pdb
+C:\Users\Ismoil\OneDrive\Desktop\Programming\ADO.NET\week1\lesson4\home-work\Domain\obj\Debug\net10.0\ref\Domain.dll

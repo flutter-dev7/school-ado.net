@@ -39,7 +39,7 @@ public class StudentService : IStudentService
                     Id = row.Field<int>("Id"),
                     FullName = row.Field<string>("FullName")!,
                     Email = row.Field<string>("Email")!,
-                    BirthDate = row.Field<DateTime>("BirthDate"),
+                    BirthDate = row.Field<DateOnly>("BirthDate"),
                 };
                 studentList.Add(student);
             }
@@ -68,7 +68,7 @@ public class StudentService : IStudentService
                 Id = reader.GetInt32(reader.GetOrdinal("Id")),
                 FullName = reader.GetString(reader.GetOrdinal("FullName")),
                 Email = reader.GetString(reader.GetOrdinal("Email")),
-                BirthDate = reader.GetDateTime(reader.GetOrdinal("BirthDate"))
+                BirthDate = reader.GetFieldValue<DateOnly>(reader.GetOrdinal("BirthDate"))
             };
             return student;
 
@@ -82,7 +82,7 @@ public class StudentService : IStudentService
             connection.Open();
 
             string sql = @"
-            SELECT c.Ttile, COUNT(e.StudentId)
+            SELECT c.Title, COUNT(e.StudentId)
             FROM Courses AS c
             JOIN Enrollments AS e ON c.Id = e.CourseId
             GROUP BY c.Title";
@@ -129,7 +129,7 @@ public class StudentService : IStudentService
                     Id = reader.GetInt32(reader.GetOrdinal("Id")),
                     FullName = reader.GetString(reader.GetOrdinal("FullName")),
                     Email = reader.GetString(reader.GetOrdinal("Email")),
-                    BirthDate = reader.GetDateTime(reader.GetOrdinal("BirthDate"))
+                    BirthDate = reader.GetFieldValue<DateOnly>(reader.GetOrdinal("BirthDate"))
                 };
                 students.Add(student);
             }
